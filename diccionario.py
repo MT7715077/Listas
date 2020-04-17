@@ -13,3 +13,10 @@ print(diccionario_colores)
 del(diccionario_colores["black"])
 print(diccionario_colores)
 
+for a in diccionario_colores:
+    print(a)
+
+for a,b in diccionario_colores.items():
+    print(a,b)
+
+
